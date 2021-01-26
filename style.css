@@ -1,0 +1,43 @@
+.grid {
+    display: grid;
+    grid-template-areas: "a b b c" "a j j c" "e f d h" "g g g g " ;
+    height: 100vh;
+
+
+}
+.item { background-color: grey;
+text-align: center ;
+
+margin: 5px ;}
+
+.item-a {
+    grid-area: a;
+}
+.item-b {
+    grid-area: b;
+}
+.item-c {
+    grid-area: c;
+}
+.item-d {
+    grid-area: d;
+}
+.item-e {
+    grid-area: e;
+}
+.item-f {
+    grid-area: f;
+}
+.item-j {
+    grid-area: j;
+}
+.item-h {
+    grid-area: h;
+}
+.item-g {
+    grid-area: g;
+}
+
+.tog{
+    border: 2px solid red;
+}
